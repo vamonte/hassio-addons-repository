@@ -4,8 +4,8 @@
   "slug": "teleinfo2mqtt",
   "description": "Extract EDF télé-information from you electrical counter (France only), and publish it to MQTT broker",
   "arch": [ "armhf", "armv7", "aarch64", "amd64", "i386" ],
-  "startup": "before",
-  "auto_uart": true,
+  "startup": "services",
+  "auart": true,
   "ports": {
     "80/tcp": 8093
   },

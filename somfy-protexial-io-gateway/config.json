@@ -4,8 +4,8 @@
   "slug": "spiog",
   "description": "Consume Somfy Protexial IO Proxy's REST API, to update HASS.io through MQTT",
   "arch": [ "armhf", "armv7", "aarch64", "amd64", "i386" ],
-  "startup": "before",
-  "auto_uart": true,
+  "startup": "services",
+  "uart": true,
   "ports": {
     "80/tcp": 8094
   },
